@@ -1,0 +1,28 @@
+
+
+body {
+    background: rgb(237, 69, 69);
+    color: white;
+
+}
+
+p#info {
+    color: yellow;
+}
+
+table,tr,td {
+    border: 2px solid;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+h1 {
+    font-size: 50px;
+    background: linear-gradient(to right, red,yellow,green,blue,purple,red) center/200%;
+    animation:gaming 2s linear infinite;
+}
+
+@keyframes gaming {
+    0% {background-position: 0%;};
+    100% {background-position:200%;};
+}
